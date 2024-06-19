@@ -1,13 +1,17 @@
-/*
-
-interface Product {
+interface Rider {
     id: number | null;
     name: string;
-    price: number;
-    weight: number;
+    birthDate: string;
+    mountainPoints: number;
+    sprintPoints: number;
+    totalTime: number;
+    teamId: number;
 }
 
-export type { Product };
+interface Team {
+    id: number;
+    name: string;
+    riders: Rider[];
+}
 
-
-*/
+export type { Rider, Team };

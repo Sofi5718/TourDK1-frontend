@@ -10,8 +10,8 @@ export default function NavBar() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="products" className="text-white hover:text-gray-300">
-                        Products
+                    <NavLink to="/riders" className="text-white hover:text-gray-300">
+                        Riders
                     </NavLink>
                 </li>
                 <li>
